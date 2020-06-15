@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Metal+Mania&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    visibility: hidden;
+}
+#soul{
+    visibility: visible;
+    margin: 10px;
+    box-shadow: 2px -2px 3px 2px black;
+    background-image: url('bg.png');
+    background-size: cover;
+}
+#cv{
+    float: right;
+    margin-right: 3rem;
+    font-size: xx-large;
+
+}
+#Clock{
+    position: absolute;
+    top: 3rem;
+    right: 1rem;
+}
+#name{
+    margin-left: 2rem;
+    font-size: 3rem;
+    color: lightcoral;
+    text-shadow:1px 2px 2px rgb(20, 23, 26);
+    display: inline-block;
+}
+#contactInfo{
+    margin-left: 2rem;
+    font-family: 'Dancing Script';
+    font-size: 1.4rem;
+}
+
+#container{
+    background-color: rgba(255, 255, 255, 0.178);
+    margin: 2rem;
+    box-shadow:0px 0px 40px 5px lightslategray;
+    border-radius: 0px 2rem 0px 0px;
+    padding: 2rem 0rem;
+}
+.containerElement{
+    margin: 2rem;
+    background-color: rgba(137, 212, 214, 0.767);
+    box-shadow: 0px -3px 10px 0px black;
+    text-align: justify;
+    font-weight: bolder;
+    padding-left: 2rem;
+    clear: both;
+}
+.handle{
+    float: right;
+    height: 100%;
+    width: 2%;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+.handle>img{
+    height: 1rem;
+    width: 1rem;
+}
+.elementLines{
+    font-size: medium;
+    font-weight: normal;
+    text-align: justify;
+    margin-right: 1rem;
+    clear: right;
+}
+#generalQualification{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+.generalQualificationItems{
+    background-color: khaki;
+    border: 2px dotted brown;
+}
+#proLangKnown{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    background-color: cadetblue;
+}
+.proLangKnownItems>h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan;
+    text-shadow: 0px 0px 2px black;
+    box-shadow: 0px 0px 1rem 0px rgb(32, 56, 56);
+    border: 2px solid white;
+    
+}
+.containerElement>div>div>p{
+    height: 15rem;
+    overflow-y: auto;
+    background-color: cyan;
+    border: 2px solid white;
+    font-weight: normal;
+    
+}
+#webFramework{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    background-color: cadetblue;
+    
+}
+.webFrameworkItems>h2{
+    text-shadow: 0px 0px 2px black;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 1rem 0px rgb(32, 56, 56);
+    align-items: center;
+    background-color: cyan;
+    border: 2px solid white;
+    
+}
+.containerElement>.containerElement{
+    font-size: medium !important;
+}
+#personalInformationLines{
+    font-size: larger;
+    font-weight: normal;
+    text-align: left;
+    background-color: rgba(229, 255, 0, 0.479);
+    padding: 2rem;
+    border-radius: 1rem;
+    border:0.5rem solid lavender;
+    box-shadow: 0rem 0rem 1rem 0rem rgb(42, 54, 165);
+
+}
+.projectElement{
+    margin: 1rem 0rem !important;
+    padding: 0.3rem;
+}
